@@ -1,0 +1,46 @@
+{
+  "name": "grunt-requirejs-license",
+  "description": "Grunt task to collect license information of dependencies used in a requirejs project.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/hsfeng/grunt-requirejs-license",
+  "author": {
+    "name": "hsfeng",
+    "email": "hsfeng@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hsfeng/grunt-requirejs-license.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hsfeng/grunt-requirejs-license/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/hsfeng/grunt-requirejs-license/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "requirejs": "~2.1.0",
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "require.js", "license collector", "license aggregator"
+  ]
+}
