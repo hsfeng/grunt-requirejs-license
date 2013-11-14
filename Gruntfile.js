@@ -27,25 +27,21 @@ module.exports = function(grunt) {
     clean: {
       tests: ['tmp'],
     },
-
+	
+	requirejs : {
+		default_options: {
+			options : {}
+		},
+		custom_options: {
+			options : {}
+		}
+	},
     // Configuration to be run (and then tested).
     requirejs_license: {
-      default_options: {
-        options: {
-        },
-        files: {
-          'tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123'],
-        },
-      },
-      custom_options: {
-        options: {
-          separator: ': ',
-          punctuation: ' !!!',
-        },
-        files: {
-          'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123'],
-        },
-      },
+		default_options: {
+		},
+		custom_options: {
+		},
     },
 
     // Unit tests.
