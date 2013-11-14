@@ -1,7 +1,7 @@
 {
   "name": "grunt-requirejs-license",
   "description": "Grunt task to collect license information of dependencies used in a requirejs project.",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/hsfeng/grunt-requirejs-license",
   "author": {
     "name": "hsfeng",
@@ -41,6 +41,6 @@
     "grunt": "~0.4.1"
   },
   "keywords": [
-    "require.js", "license collector", "license aggregator"
+    "gruntplugin", "require.js", "license collector", "license aggregator"
   ]
 }
